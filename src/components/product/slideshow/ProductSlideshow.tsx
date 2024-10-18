@@ -42,8 +42,6 @@ export const ProductSlideshow = ({ images, title, className }: Props) => {
           // '--swiper-pagination-size': '10px',
           // '--swiper-pagination-bullet-inactive-opacity': '0.5',
           // '--swiper-pagination-bullet-inactive-color': '#fff'
-
-
         } as React.CSSProperties}
         spaceBetween={10}
         navigation={true}
@@ -55,7 +53,6 @@ export const ProductSlideshow = ({ images, title, className }: Props) => {
         modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className="mySwiper2"
       >
-
         {
           images.map(image => (
             <SwiperSlide key={image}>

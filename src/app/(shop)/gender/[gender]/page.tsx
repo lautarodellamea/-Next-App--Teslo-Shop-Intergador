@@ -46,7 +46,6 @@ export default async function CategoryPage({ params, searchParams }: Props) {
   }
 
 
-
   return (
     <>
       <Title title={`Articulos de ${labels[gender]}`} subtitle="Todos los productos" className="mb-2" />
